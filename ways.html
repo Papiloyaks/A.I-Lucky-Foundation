@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ways To Give</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
+    <link rel="stylesheet" href="Bootstrap Ass/bootstrap.css">
+    <script src="style.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+      #img1 {
+        width: 100%;
+        height: 70vh;
+        box-shadow: 7px 7px 20px rgb(95, 95, 95);
+      }
+      h3 {
+        font-family: 'Times New Roman', Times, serif;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div id="div1">
+      <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img id="imgLogo" src="image/Logo-removebg.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link activez me-lg-4 me-sm-0 fs-5" aria-current="page" id="href" onclick="home()">Home</a>
+              </li>
+              <li  class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle me-lg-4 me-sm-0 fs-5" id="href"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   Our Effort
+                </a>
+                <ul class="dropdown-menu"> 
+                  <li><a class="dropdown-item" id="href" onclick="ourEffort()">Effort</a></li>
+                  <li><a class="dropdown-item" id="href" onclick="theProblem()">The Problem(s)</a></li>
+                  <li><a class="dropdown-item" id="href" onclick="theSolution()">The Solution</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle me-lg-4 me-sm-0 fs-5" id="href" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Get Involved
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" id="href" onclick="getInvolved()">Involved</a></li>
+                  <li><a class="dropdown-item" id="href" onclick="waysGive()">Ways to Give</a></li>
+                  <li><a class="dropdown-item" id="href" onclick="fund()">Fundraise</a></li>
+                  <li><a class="dropdown-item" id="href" onclick="fundCamp()">Fundraise Campaign</a></li>
+                  <li><a class="dropdown-item" id="href" onclick="faqs()">FAQ's</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-lg-5 me-sm-0 fs-5" id="href" onclick="aboutUs()">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-lg-5 me-sm-0 fs-5" id="href" onclick="contactUs()" >Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">
+                  <button id="navBtn" class="ms-5 fs-5" onclick="donate()">Donate</button>
+                </a></li>
+              <li class="nav-item">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="div2">
+      <img id="img1" src="image/donate-picture.jpg" alt="">
+    </div>
+    <div class="col-8 mx-auto my-5">
+        <h1 style="font-family: 'Times New Roman', Times, serif;" class="text-center text-danger">Ways To Donate</h1>
+        <p style="border-bottom: 5px solid grey;"></p>
+        <p class="mt-5 text-center fs-5 fw-bold">Now more than ever donors, like yourself, want to know that what you give is making a significant difference. We believe we are doing just that. If you agree, and we hope that you do, join with us as we change lives not just for today or for the near term, but for generations to come!</p>
+        <p class="text-center mt-3 fs-5 text-danger fw-bold">Our effort to transform lives is only a vision without your participation. Thank you for your consideration to give!</p>
+    </div>
+    <div style="display: flex; flex-wrap: wrap;gap: 20px;" class="col-9 mx-auto">
+        <div class="card mb-3 shadow" style="width: 20rem;">
+            <div class="card-body text-center">
+              <h3 class="card-title text-primary my-3 text-center">Donate Online</h3>
+              <p style="text-align: left; font-size: 17px;" class="card-text">The best way to transform a village is to donate online by credit card or by ACH through your bank account.</p>
+              <a href="donate.html" class="btn btn-primary fs-5 px-4 my-3">Donate</a>
+            </div>
+          </div>
+          <div class="card text-center mb-3 shadow" style="width: 20rem;">
+            <div class="card-body">
+              <h3 class="card-title text-primary text-center my-3">Text To Give</h3>
+              <p style="text-align: left; font-size: 17px;" class="card-text">Prefer to use your mobile phone to give. It is easy! Simply text TTWE to 84576 and make your one-time or recurring donation.</p>
+            </div>
+          </div>
+          <div class="card text-center mb-3 shadow" style="width: 20rem;">
+            <div class="card-body text-center">
+              <h3 class="card-title text-primary text-center my-3">Donate Monthly</h3>
+              <p style="text-align: left; font-size: 17px;" class="card-text">Choose to donate monthly to help more villages by selecting "Monthly Donation" on the donate page to start your recurring monthly gift.</p>
+              <a href="donate.html" class="btn btn-primary my-3">GIVE MONTHLY</a>
+            </div>
+          </div>
+          <div class="card mb-3 shadow" style="width: 20rem;">
+            <div class="card-body text-center">
+              <h3 class="card-title text-primary my-3 text-center">Donate By PayPal</h3>
+              <img style="max-width: 40%;" class="my-3" src="image/paypal-image-w300-o.png" alt="">
+              <p style="text-align: left; font-size: 17px;" class="card-text">Click here or on your phone, login and search for Transform Through WE.</p>
+            </div>
+          </div>
+          <div class="card text-center mb-3 shadow" style="width: 20rem;">
+            <div class="card-body">
+              <h3 class="card-title text-primary text-center my-3">Donate By Mail</h3>
+              <p style="text-align: left; font-size: 17px;" class="card-text">To donate by check: Make check out to Transform Through WE and mail to: P.O. Box 860223 - Plano, TX. 75086</p>
+              <h3 class="card-title text-primary text-center my-3">Donate By Phone</h3>
+              <p style="text-align: left; font-size: 17px;" class="card-text">Call us at 469-720-5921 if you prefer to donate by phone.</p>
+            </div>
+          </div>
+          <div class="card text-center mb-3 shadow" style="width: 20rem;">
+            <div class="card-body text-center">
+              <h3 class="card-title text-primary text-center my-3">Donate By Venmo</h3>
+              <img style="max-width: 60%;" class="my-3" src="image/venmo-w177-o.jpg" alt="">
+              <p style="text-align: left; font-size: 17px;" class="card-text">Click here or on your phone, login and search for Transform Through WE.</p>
+            </div>
+          </div>
+    </div>
+    <div class="col-8 mx-auto my-5">
+        <h3 class="text-success">WHEN YOU GIVE</h3>
+        <p class="text-center fs-5">You become more than just a donor. You become a partner in solving society’s toughest challenges. And you will not be alone. You will be joining an ever-growing community of like-minded individuals that wish to provide a helping hand to transform lives from dependency to opportunity.</p>
+    </div>
+    <div id="div9">
+        <div id="last">
+          <p id="pLast1">STAY INFORMED BY GETTING OUR UPDATES ></p>
+          <label for="name" id="lab">Name</label>
+          <input class="form-control" type="text" id="name" placeholder="Enter Name">
+          <label for="email" id="lab" class="ms-3">Email</label>
+          <input class="form-control" type="text" id="email" placeholder="Enter Email">
+          <button id="submit" class="ms-2">Submit</button>
+        </div>
+        <div id="last">
+          <p id="pLast1">Follow Us On</p>
+          <p id="pLast2"></p>
+          <div id="imgL"> 
+            <span id="sLast">></span>
+            <img id="imgLast" src="image/facebook.png" alt="">
+            <img id="imgLast" src="image/twitter.png" alt="">
+            <img id="imgLast" src="image/email.png" alt="">
+            <img id="imgLast" src="image/telephone.png" alt="">
+            <img id="imgLast" src="image/instagram.png" alt="">
+          </div>
+        </div>
+        <div id="last">
+          <a href="" id="aLast">Privacy Policy</a>
+          <a href="" id="aLast">Copyright © 2023 - All Rights Reserved</a>
+          <a href="" id="aLast">Terms of Use</a>
+          <a href="" id="aLast">Our Team</a>
+        </div>
+        <div id="last">
+          <p id="pLast3">AI Lucky Foundation</p>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>

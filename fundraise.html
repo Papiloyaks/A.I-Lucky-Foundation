@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundraise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
+    <link rel="stylesheet" href="Bootstrap Ass/bootstrap.css">
+    <script src="style.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+      #img1 {
+        width: 100%;
+        height: 70vh;
+        box-shadow: 7px 7px 20px rgb(95, 95, 95);
+      }
+      #h21 {
+        color: seagreen;
+        margin: -200px 0px 0px 10vw;
+        font-size: 45px;
+      }
+      #pH21 {
+        color: white;
+        margin: 0px 0px 0px 10vw;
+        font-size: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="div1">
+      <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img id="imgLogo" src="image/Logo-removebg.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link activez me-lg-4 me-sm-0 fs-5" aria-current="page" id="href" onclick="home()">Home</a>
+              </li>
+              <li  class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle me-lg-4 me-sm-0 fs-5" id="href"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   Our Effort
+                </a>
+                <ul class="dropdown-menu"> 
+                  <li><a class="dropdown-item" id="href" onclick="ourEffort()">Effort</a></li>
+                  <li><a class="dropdown-item" id="href" onclick="theProblem()">The Problem(s)</a></li>
+                  <li><a class="dropdown-item" id="href" onclick="theSolution()">The Solution</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle me-lg-4 me-sm-0 fs-5" id="href" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Get Involved
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" id="href" onclick="getInvolved()">Involved</a></li>
+                  <li><a class="dropdown-item" id="href" onclick="waysGive()">Ways to Give</a></li>
+                  <li><a class="dropdown-item" id="href" onclick="fund()">Fundraise</a></li>
+                  <li><a class="dropdown-item" id="href" onclick="fundCamp()">Fundraise Campaign</a></li>
+                  <li><a class="dropdown-item" id="href" onclick="faqs()">FAQ's</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-lg-5 me-sm-0 fs-5" id="href" onclick="aboutUs()">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-lg-5 me-sm-0 fs-5" id="href" onclick="contactUs()" >Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">
+                  <button id="navBtn" class="ms-5 fs-5" onclick="donate()">Donate</button>
+                </a></li>
+              <li class="nav-item">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="div2">
+      <img id="img1" src="image/conversation.jpg" alt="">
+      <h2 id="h21">Fundraise</h2>
+      <p id="pH21">Help transform lives!</p>
+    </div>
+    </div>
+    <div class="card mx-auto my-5 text-center border-0">
+        <h1 style="font-family: 'Times New Roman', Times, serif;" class="text-success">Your voice, your friends, and your passion can unlock the potential of an entire community!</h1>
+        <p style="border-bottom: 2px solid grey;" class="mx-auto col-7 mt-5"></p>
+        <h1 style="font-family: 'Times New Roman', Times, serif;" class="text-primary my-5">READY TO START YOUR OWN CAMPAIGN?</h1>
+      </div>
+      <div class="card mb-3 mx-auto" style="max-width: 80%; box-shadow: 2px 2px 20px 1px black;">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <img style="height: 100%;" src="image/business-lady.jpg" class="img-fluid" alt="...">
+          </div>
+          <div style="background-color: #B6CBCF;" class="col-md-6 p-2">
+            <div class="card-body">
+              <p class="card-title text-center fs-5">It's easy! Send us your contact information below.</p>
+              <div class="mt-4 p-3" style="border: 1px solid yellowgreen;">
+                <label for="" class="fw-bold">First Name*</label>
+                <input type="text" class="form-control mb-2">
+                <label for="" class="fw-bold">Last Name*</label>
+                <input type="text" class="form-control mb-2">
+                <label for="" class="fw-bold">Email Address*</label>
+                <input type="text" class="form-control mb-2">
+                <label for="" class="fw-bold">Phone Number*</label>
+                <input type="text" class="form-control mb-2">
+                <button class="form-control fw-bold text-light bg-success mt-3">Submit</button>
+              </div>
+              <p class="card-text fs-5 text-center mt-2">We will follow up to answer all your questions,
+                assist in getting your personal fundraising page designed and be available throughout
+                your fundraising time.</p>
+              <p class="card-text col-9 fw-bold fs-5 mx-auto text-center">Thank you for your desire to help in saving. and transforming lives!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="font-family: 'Times New Roman', Times, serif;background-color: #EBF3FA;max-width: 80%;" class="mx-auto my-5 p-5 shadow border-0 rounded-4">
+        <h1 class="text-center text-primary mb-4">Get Started With Your Fundraiser</h1>
+        <div style="display: flex;flex-wrap: wrap;" class="mt-5">
+          <div class="col-lg-5 col-sm-9">
+            <h3 class="text-success">Personalize Your Message</h3>
+          </div>
+          <div class="col-lg-7 col-sm-12">
+            <p class=""><span class="fw-bold">Be creative with your message. Tell people why you are so passionate about your effort</span> and why you decided to get involved with Transform Through WE. It doesn't have to be long;  just what comes naturally and from the heart! This can be written or you can create a video with your cell phone. A video appeal is very impactful. Make it yours!</p>
+            <p style="border-bottom: 1px solid grey;" class="col-7 mx-auto"></p>
+          </div>
+        </div>
+        <div style="display: flex;flex-wrap: wrap;" class="mt-5">
+          <div class="col-lg-5 col-sm-9">
+            <h3 class="text-success">Setup Your Campaign Page</h3>
+          </div>
+          <div class="col-lg-7 col-sm-12">
+            <p class="">Creating your personal campaign page is quick and easy.<span class="fw-bold">Simply send us a picture of yourself that you want to use and your written message. Send your video if you created one.</span> Once received your page will be completed in one day and will be ready for you to get started!</p>
+            <p style="border-bottom: 1px solid grey;" class="col-7 mx-auto"></p>
+          </div>
+        </div>
+        <div style="display: flex;flex-wrap: wrap;" class="mt-5">
+          <div class="col-lg-5 col-sm-9">
+            <h3 class="text-success">Spread The Word</h3>
+          </div>
+          <div class="col-lg-7 col-sm-12">
+            <p class=""><span class="fw-bold">Now the fun begins! Get started by reaching out to friends and family but don't stop there.</span> Think outside the box. Invite coworkers, colleages, neighbors, acquaintances, and even strangers to give. Raising awareness of the problem and your efforts to help solve it will make a huge difference!</p>
+            <p style="border-bottom: 1px solid grey;" class="col-7 mx-auto"></p>
+          </div>
+        </div>
+        <div style="display: flex;flex-wrap: wrap;" class="mt-5">
+          <div class="col-lg-5 col-sm-9">
+            <h3 class="text-success">Ways To Connect</h3>
+          </div>
+          <div class="col-lg-7 col-sm-12">
+            <p class=""><span class="fw-bold">Once your campaign is set up, tell everyone about it! Use email</span> (we will provide a PDF document telling about your campaign). Send texts to direct people to your campaign page. Post on your social media (Facebook, Instagram, etc.). Print out the PDF document to hand out to people you meet face to face. The more people you tell, the quicker you will reach your goal. Have fun!</p>
+            <p style="border-bottom: 1px solid grey;" class="col-7 mx-auto"></p>
+          </div>
+        </div>
+        <div style="display: flex;flex-wrap: wrap;" class="mt-5">
+          <div class="col-lg-5 col-sm-9">
+            <h3 class="text-success">Watch As Donations Come In</h3>
+          </div>
+          <div class="col-lg-7 col-sm-12">
+            <p class=""><span class="fw-bold">Your campaign page will update as donations come in.</span> Make sure to ask your donors to post a comment about your campaign. The comment will show up with their donation so others can see. It will help get more people excited when they look at your campaign page.</p>
+            <p style="border-bottom: 1px solid grey;" class="col-7 mx-auto"></p>
+          </div>
+        </div>
+        <div style="display: flex;flex-wrap: wrap;" class="mt-5">
+          <div class="col-lg-5 col-sm-9">
+            <h3 class="text-success">Celebrate!</h3>
+          </div>
+          <div class="col-lg-7 col-sm-12">
+            <p class=""><span class="fw-bold">When your campaign is completed send out a "Thank You and Well Done!" message to all of your donors.</span> We will do the same. Monthly updates will be sent out to you and your supporters from this point until the Life Transformation System is installed and serving the village.</p>
+            <p style="border-bottom: 1px solid grey;" class="col-7 mx-auto"></p>
+          </div>
+        </div>
+      </div>
+      <div style="max-width: 80%;background-color: #C5DFB9;font-family: 'Times New Roman', Times, serif;" class="mx-auto px-5 my-5 p-2 shadow border-0 rounded-4">
+        <h2 class="mt-3">Frequently Asked Questions</h2>
+        <div class="mt-4">
+          <h4 class="text-primary">I would love to get involved, but I don't know where to begin.</h4>
+          <p class="ms-5">Need some assistance? Need inspiration? Whatever you need, we are here to help! Sign up below and we will assist you in writing the perfect messages, to help designing your fundraising page, to being available for any questions you might have throughout your campaign, and finally celebrating with you when you meet your goal!</p>
+          <h4 class="text-primary">I have my fundraising page finished and my messages ready. Now what?</h4>
+          <p class="ms-5">Great! Now the fun begins! Be the first donor. Make a great comment! It shows that you are all in. Start posting on your social network (Facebook, Instagram, etc.). Send emails and texts. As people start to give, you will see their donations on your fundraising page. It is very important to respond with a thank you message. We will also send a thank you message to your donors as well.</p>
+          <h4 class="text-primary">I want to make a bigger impact. How can I do this?</h4>
+          <p class="ms-5">Add a challenge to all of your messages and to your fundraising page. This is a great way to get others involved. See below why and how a challenge works.</p>
+          <h4 class="text-primary">Why a challenge?</h4>
+          <p class="ms-5">It is critical that as much of the funds that Transform Through WE receives go directly to the effort. Having passionate, excited supporters sharing with their social network greatly reduces the expenses that Transform Through WE needs to spend to get the word out. The more challenges that are initiated and completed, the more Life Transformation Systems will be installed. The bottom line, more lives will be transformed!</p>
+          <h4 class="text-primary">"15 For 15" Challenge</h4>
+          <p class="ms-5">A simple and easy, yet very powerful way for you to fundraise. The challenge is in two parts. The first is for you to give a one-time donation of $15. Simple and easy. The second is for you to share about our effort through your social network (friends, family, coworkers, etc.) and challenge them to do the same as you have done, which is to give a one-time donation of $15 and share it with their social network. That is the powerful part! That is it! When people accept the challenge, we will follow up with them and keep the excitement going! Simple... Easy... Powerful...</p>
+          <h4 class="text-primary">Why only A $15 one-time donation?</h4>
+          <p class="ms-5">There are a number of reasons. First, we wanted to make the amount to give an easy decision. Second, with respect to those who choose to help fundraise, we wanted to make the challenge amount easy as well. Third, we don't want to take away any funds from other nonprofits you, and those that you contact, support.</p>
+          <h4 class="text-primary">I am a college student. What is the best way to promote AI Lucky Foundation on campus?</h4>
+          <p class="ms-5">First you need to check with your school to make sure that it is ok to raise money on campus. If it is ok, be sure to know the rules and steps to follow. Then start with setting up your fundraising page and get your messages ready. Now is the fun part. You have a number of ways to promote your fundraising challenge on campus. Be as creative as you want. Start a "15 For 15" Challenge and reach out to the students you know. Challenge them to get the word out. Challenge your fraternity or sorority if you are in one. Take the challenge to the next level and challenge other fraternities and sororities. In no time you can be reaching the whole student body and providing a Life Transformation System to a village that desperately needs to be lifted out of poverty.</p>
+        </div>
+      </div>
+      <div style="background-color: #BFD7ED;max-width: 80%;font-family: 'Times New Roman', Times, serif;" class="my-5 mx-auto p-4 shadow border-0 rounded-4">
+        <p class="fs-5">Lastly, we want to show just how much of an impact a small one-time donation can make. Combined with organic fundraising starting with your social network, to the untold numbers of people that will be touched by your friends, family, and coworkers, and beyond to give is powerful. From the beginning of the project to the onsite installation, everyone's efforts will be realized through a video documentary seeing the lives of people transformed!</p>
+      </div>
+      <div id="div9">
+        <div id="last">
+          <p id="pLast1">STAY INFORMED BY GETTING OUR UPDATES ></p>
+          <label for="name" id="lab">Name</label>
+          <input class="form-control" type="text" id="name" placeholder="Enter Name">
+          <label for="email" id="lab" class="ms-3">Email</label>
+          <input class="form-control" type="text" id="email" placeholder="Enter Email">
+          <button id="submit" class="ms-2">Submit</button>
+        </div>
+        <div id="last">
+          <p id="pLast1">Follow Us On</p>
+          <p id="pLast2"></p>
+          <div id="imgL"> 
+            <span id="sLast">></span>
+            <img id="imgLast" src="image/facebook.png" alt="">
+            <img id="imgLast" src="image/twitter.png" alt="">
+            <img id="imgLast" src="image/email.png" alt="">
+            <img id="imgLast" src="image/telephone.png" alt="">
+            <img id="imgLast" src="image/instagram.png" alt="">
+          </div>
+        </div>
+        <div id="last">
+          <a href="" id="aLast">Privacy Policy</a>
+          <a href="" id="aLast">Copyright © 2023 - All Rights Reserved</a>
+          <a href="" id="aLast">Terms of Use</a>
+          <a href="" id="aLast">Our Team</a>
+        </div>
+        <div id="last">
+          <p id="pLast3">AI Lucky Foundation</p>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>

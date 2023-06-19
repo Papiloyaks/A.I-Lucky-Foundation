@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundraise Campaign</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
+    <link rel="stylesheet" href="Bootstrap Ass/bootstrap.css">
+    <script src="style.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+      #img1 {
+        width: 100%;
+        height: 70vh;
+        box-shadow: 7px 7px 20px rgb(95, 95, 95);
+      }
+      #h21 {
+        color: white;
+        margin: -150px 0px 0px 10vw;
+        font-size: 45px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="div1">
+      <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img id="imgLogo" src="image/Logo-removebg.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link activez me-lg-4 me-sm-0 fs-5" aria-current="page" id="href" onclick="home()">Home</a>
+              </li>
+              <li  class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle me-lg-4 me-sm-0 fs-5" id="href"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   Our Effort
+                </a>
+                <ul class="dropdown-menu"> 
+                  <li><a class="dropdown-item" id="href" onclick="ourEffort()">Effort</a></li>
+                  <li><a class="dropdown-item" id="href" onclick="theProblem()">The Problem(s)</a></li>
+                  <li><a class="dropdown-item" id="href" onclick="theSolution()">The Solution</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle me-lg-4 me-sm-0 fs-5" id="href" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Get Involved
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" id="href" onclick="getInvolved()">Involved</a></li>
+                  <li><a class="dropdown-item" id="href" onclick="waysGive()">Ways to Give</a></li>
+                  <li><a class="dropdown-item" id="href" onclick="fund()">Fundraise</a></li>
+                  <li><a class="dropdown-item" id="href" onclick="fundCamp()">Fundraise Campaign</a></li>
+                  <li><a class="dropdown-item" id="href" onclick="faqs()">FAQ's</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-lg-5 me-sm-0 fs-5" id="href" onclick="aboutUs()">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-lg-5 me-sm-0 fs-5" id="href" onclick="contactUs()" >Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">
+                  <button id="navBtn" class="ms-5 fs-5" onclick="donate()">Donate</button>
+                </a></li>
+              <li class="nav-item">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="div2">
+      <img id="img1" src="image/african-women-cooking.jpg" alt="">
+      <h2 id="h21">TRANSFORM NIGERIA</h2>
+    </div>
+    <div class="col-9 mx-auto my-5 text-center">
+      <h2 style="font-family: 'Times New Roman', Times, serif;" class="col-lg-8 mx-auto text-danger">Help Fathers Provide For Their families, Empower Women, and Encourage Children!</h2>
+      <p style="border-bottom: 1px solid;" class="mx-auto col-7 mt-4"></p>
+      <p class="fw-600 fs-5 mt-4">Click on the name of the fundraiser that you would like to donate to. If you would like to start your own fundraising campaign, <a href="" class="text-danger text-decoration-none">click here.</a></p>
+      <p class="mt-4 fs-4 fw-600 text-danger">Thank you for helping to transform lives, one village at a time!</p>
+    </div>
+    <div style="display: flex;flex-wrap: wrap;" class="col-8 mx-auto">
+      <div class="col-lg-4 p-2">
+        <div class="card border-0">
+          <img src="image/brian-and-haley.jpg" class="card-img-top rounded-5 shadow" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Brian and Haley Ferguson</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 p-2">
+        <div class="card border-0">
+          <img src="image/brian-and-haley.jpg" class="card-img-top rounded-5 shadow" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Brian and Haley Ferguson</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 p-2">
+        <div class="card border-0">
+          <img src="image/brian-and-haley.jpg" class="card-img-top rounded-5 shadow" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Brian and Haley Ferguson</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 p-2">
+        <div class="card border-0">
+          <img src="image/brian-and-haley.jpg" class="card-img-top rounded-5 shadow" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Brian and Haley Ferguson</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 p-2">
+        <div class="card border-0">
+          <img src="image/brian-and-haley.jpg" class="card-img-top rounded-5 shadow" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Brian and Haley Ferguson</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 p-2">
+        <div class="card border-0">
+          <img src="image/brian-and-haley.jpg" class="card-img-top rounded-5 shadow" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Brian and Haley Ferguson</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 p-2">
+        <div class="card border-0">
+          <img src="image/brian-and-haley.jpg" class="card-img-top rounded-5 shadow" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Brian and Haley Ferguson</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 p-2">
+        <div class="card border-0">
+          <img src="image/brian-and-haley.jpg" class="card-img-top rounded-5 shadow" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Brian and Haley Ferguson</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 p-2">
+        <div class="card border-0">
+          <img src="image/brian-and-haley.jpg" class="card-img-top rounded-5 shadow" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Brian and Haley Ferguson</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 p-2 mx-auto">
+      <div class="card border-0">
+        <img src="image/brian-and-haley.jpg" class="card-img-top rounded-5 shadow" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Your Name and your Picture Here</h5>
+        </div>
+      </div>
+    </div>
+    <div style="height: 50vh;">
+
+    </div>
+    <div id="div9">
+      <div id="last">
+        <p id="pLast1">STAY INFORMED BY GETTING OUR UPDATES ></p>
+        <label for="name" id="lab">Name</label>
+        <input class="form-control" type="text" id="name" placeholder="Enter Name">
+        <label for="email" id="lab" class="ms-3">Email</label>
+        <input class="form-control" type="text" id="email" placeholder="Enter Email">
+        <button id="submit" class="ms-2">Submit</button>
+      </div>
+      <div id="last">
+        <p id="pLast1">Follow Us On</p>
+        <p id="pLast2"></p>
+        <div id="imgL"> 
+          <span id="sLast">></span>
+          <img id="imgLast" src="image/facebook.png" alt="">
+          <img id="imgLast" src="image/twitter.png" alt="">
+          <img id="imgLast" src="image/email.png" alt="">
+          <img id="imgLast" src="image/telephone.png" alt="">
+          <img id="imgLast" src="image/instagram.png" alt="">
+        </div>
+      </div>
+      <div id="last">
+        <a href="" id="aLast">Privacy Policy</a>
+        <a href="" id="aLast">Copyright © 2023 - All Rights Reserved</a>
+        <a href="" id="aLast">Terms of Use</a>
+        <a href="" id="aLast">Our Team</a>
+      </div>
+      <div id="last">
+        <p id="pLast3">AI Lucky Foundation</p>
+      </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>

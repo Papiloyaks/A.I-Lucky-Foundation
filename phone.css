@@ -1,0 +1,168 @@
+@media screen and (max-width: 475px) {
+    #imgLogo {
+        margin: -50px 0px -50px 20px;
+    }
+    #navBtn {
+        padding: 10px;
+        width: 80%;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    #pCaro1, #pCaro2, #pCaro3 {
+        font-size: 25px;
+    }
+    #div3 {
+        height: 140vh;
+    }
+    #div3Bod {
+        flex-wrap: wrap;
+        height: 120vh;
+        width: 80%;
+        margin: 100px 0px 0px 50px;
+        padding: 20px;
+    }
+    #div3Img {
+        width: 100%;
+        left: 0px;
+        top: 0px;
+    }
+    #pDiv3 {
+        margin: 20px 0px 0px 0px;
+    }
+    #div4 {
+        height: 80vh;
+        flex-wrap: wrap;
+    }
+    #div4Bod1 {
+        width: 100%;
+    }
+    #pDiv4-1 {
+        margin: 10px 0px 10px 20px;
+    }
+    #aDiv4 {
+        margin-left: 20px;
+    }
+    #div4Bod2 {
+        width: 50%;
+        margin: 0px 0px 0px 50px;
+    }
+    #pDiv4-2 {
+        font-size: 50px;
+    }
+    #pDiv4-3 {
+        font-size: 20px;
+    }
+    #div5 {
+        height: 130vh;
+    }
+    #div5Bod {
+        height: 110vh;
+        width: 90%;
+        margin: 100px 0px 0px 20px;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+    #div5Img {
+        width: 100%;
+    }
+    #div5-1 {
+        padding: 0px;
+    }
+    #div7 {
+        height: 140vh;
+    }
+    #div7Bod {
+        height: 120vh;
+        width: 90%;
+        margin: 20px 0px 0px 20px;
+        padding: 20px;
+    }
+    #bod1 {
+        height: 60vh;
+        width: 100%;
+    }
+    #bod2 {
+        width: 100%;
+        top: 20px;
+        left: 0px;
+    }
+    #div8 {
+        height: 40vh;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: left;
+        padding: 20px;
+    }
+    #box {
+        width: 22vh;
+        height: 25vh;
+        font-size: 18px;
+    }
+    #last {
+        flex-wrap: wrap;
+        padding-top: 0px;
+    }
+    #pLast1 {
+        font-size: 20px;
+    }
+    #lab{
+        font-size: 20px;
+    }
+    #name, #email {
+        width: 25vw;
+    }
+    #pLast2 {
+        width: 10vw;
+    }
+    #imgL {
+        width: 50vw;
+    }
+    #sLast {
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        margin-right: 20px;
+    }
+    #imgLast {
+        width: 10%;
+        height: 40%;
+        margin-right: 10px;
+    }
+    #aLast {
+        margin-right: 20px;
+    }
+    #pLast3 {
+        margin-right: 10px;
+    }
+    #pLast4, #pLast5 {
+        margin: 7px 20px 0px 10px;
+    }
+    #paraF {
+        font-size: 14px;
+    }
+    #btnF {
+        width: 15vw;
+    }
+
+    /* GET INVOLVED */
+    #invBtn {
+        font-size: 14px;
+      }
+      #way {
+        width: 35vw;
+      }
+      #more {
+        font-size: 30px;
+      }
+
+      /* CONTACT US */
+      #divFour {
+        height: 90vh;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      #boxer {
+        height: 75vh;
+        width: 80%;
+        margin-left: 50px;
+      }
+}
