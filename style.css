@@ -11,9 +11,10 @@ body {
     background-color: white;
 }
 #imgLogo {
-    width: 25vw;
-    height: 30vh;
+    width: 9vw;
+    height: 10vh;
     margin: -50px 0px -50px -20px;
+    margin-left: 30px;
 }
 #href {
     cursor: pointer;
